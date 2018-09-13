@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Starbugs</title>
+	<link rel="stylesheet" type="text/css" href="coffee.css">
+	<script type="text/javascript" src="coffeescript.js"></script>
+</head>
+<body>
+	<div class="navbar">
+		<a href="home.html#contact" class="link">Contact</a>
+		<a href="home.html#membership" class="link">Membership</a>
+		<a href="home.html#coffee" class="link">Coffee</a>
+		<a href="home.html#starbugs" class="homelink">Starbugs Coffee</a>
+	</div>
+
+	<!-- ini bagian page 1 -->
+	<a name="starbugs"></a>
+	<div class="page1" >
+		<h1>Starbugs Coffee</h1>
+		<hr>
+		<h2>Coffee.Espresso.Frappucino
+	</div>
+
+	<!-- ini bagian page 2 -->
+	<a name="coffee"></a>
+	<div class="page2" >
+		<h1>Coffee</h1>
+		<table cellspacing="20">
+			<tr>
+				<td><img src="./images/menu1.jpg"></td>
+				<td><img src="./images/menu2.jpg"></td>
+				<td><img src="./images/menu3.jpg"></td>
+			</tr>
+			<tr>
+				<td>
+					<font size="18">Cappucino</font><br><br>
+					Cappucino is an italian coffee which is traditionally prepared with espresso, hot milk and steamed milk foam. Cream may be used instead of milk and is often topped with cinnamon.
+				</td>
+				<td>
+					<font size="18">Frappucino</font><br><br>
+					Frappucino is a trademark for a line of frozen coffee baverages sold by Starbugs. It consist of coffee or other base ingredient. blended with ice and other ingredient, usually topped with whipped cream
+				</td>
+				<td>
+					<font size="18">Coffee</font><br><br>
+					Coffee is brewed drink prepared from roasted coffee beans. which are the seeds of berries from coffea plant.
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- ini page 3 -->
+	<a name="membership"></a>
+	<div class="page3">
+		<h1>Membership</h1>
+		<table cellspacing="30">
+			<tr>
+				<td>Username: </td>
+				<td>
+					<input type="text" name="username" id="username" value="">
+				</td>
+				<td>
+					<p id="errorUsername"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Password: </td>
+				<td>
+					<input type="password" name="password" id="password" value="">
+				</td>
+				<td>
+					<p id="errorPassword"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Email: </td>
+				<td>
+					<input type="email" name="email" id="email">
+				</td>
+				<td>
+					<p id=errorEmail></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Address: </td>
+				<td>
+					<textarea id="address"></textarea>
+				</td>
+				<td>
+					<p id=errorAddress></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Phone: </td>
+				<td>
+					<input type="text" name="phone" id=phone>
+				</td>
+				<td>
+					<p id="errorPhone"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Gender: </td>
+				<td><input type="radio" name="gender" id="gender" value="male"> Male</td>
+				<td><input type="radio" name="gender" id="gender1" value="female"> Female </td>
+				
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<p id="errorGender"></p>
+				</td>
+				<td><button onclick="register()" type="button">REGISTER</button></td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- ini page 4 -->
+	<a name="contact"></a>
+	<div class="page4">
+		<div class="contactButton">
+			<a class="contactUs">Contact Us</a>
+			<button onclick="window.location.href='https://facebook.com'" class="contactLink">Facebook</button>
+			<button onclick="window.location.href='https://twitter.com'" class="contactLink">Twitter</button>
+			<button onclick="window.location.href='https://instagram.com'" class="contactLink">Instagram</button>
+		</div>
+		<div class="copyright">
+			&copyCopyright@2015
+		</div>
+	</div>
+
+</body>
+</html>
